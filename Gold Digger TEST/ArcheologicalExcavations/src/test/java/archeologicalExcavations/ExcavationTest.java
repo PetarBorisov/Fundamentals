@@ -68,5 +68,8 @@ public class ExcavationTest {
         boolean isRemoved = excavation.removeArchaeologist("Non-Existing Archaeologist");
 
         Assertions.assertFalse(isRemoved);
+
+
+
     }
 }
